@@ -1,6 +1,7 @@
 # Crop Disease Identification
   Crop diseases are a major threat to food security, but their rapid identification remains difficult in many parts of the world due to the lack of the necessary infrastructure. The combination of increasing global smartphone penetration and recent advances in computer vision made possible by deep learning has paved the way for smartphone-assisted disease diagnosis. Using a public dataset of 87000 images of diseased and healthy plant leaves collected under controlled conditions, we train a deep convolutional neural network to identify 14 crop species and 26 diseases (or absence thereof). The trained model achieves an accuracy of more than 96% on a held-out test set, demonstrating the feasibility of this approach. Overall, the approach of training deep learning models on increasingly large and publicly available image datasets presents a clear path toward smartphone-assisted crop disease diagnosis on a massive global scale.
 
+![Preview](https://miro.medium.com/max/1400/1*R4SwNNnq9_MEqC7qMEBOug.jpeg)
 
 Measurement of Performance
 To get a sense of how our approaches will perform on new unseen data, and also to keep a track of if any of our approaches are overfitting, we run all our experiments across a whole range of train-test set splits, namely 80–20 (80% of the whole dataset used for training, and 20% for testing). It must be noted that in many cases, thedataset has multiple images of the same leaf (taken from different orientations), and we have the mappings of such cases for 51,112 images out of the 87,306 images; and during all these test-train splits, we make sure all the images of the same leaf goes either in the training set or the testing set. Further, for every experiment, we compute the mean precision, mean recall, mean F1 score, along with the overall accuracy over the whole period of training at regular intervals (at the end of every epoch). We use the final mean F1 score for the comparison of results across all of the different experimental configurations.
@@ -61,4 +62,6 @@ Throughout this project, we have used the notation of Architecture:TrainingMecha
   3. Django
   
 ## Output
+![Prediction](https://miro.medium.com/max/733/1*IXvRurRFdAW8jaOvlybKbA.png)
+![Prediction 2](https://miro.medium.com/max/710/1*gFeIleK0tOPPPUKviE1-GQ.png)
 ![Output](output.png)
