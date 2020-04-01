@@ -65,3 +65,5 @@ Throughout this project, we have used the notation of Architecture:TrainingMecha
 ![Prediction](https://miro.medium.com/max/733/1*IXvRurRFdAW8jaOvlybKbA.png)
 ![Prediction 2](https://miro.medium.com/max/710/1*gFeIleK0tOPPPUKviE1-GQ.png)
 ![Output](output.png)
+
+Model:https://drive.google.com/open?id=1tLMUYkwk2SAsCOijMlE93BLdRAQXkX3H
